@@ -1,10 +1,14 @@
-⚙️ Setup
-Install Ollama
+# 🤖 Chatbot RAG con Ollama y FAISS
 
-bash
+*Un chatbot en español con memoria conversacional y recuperación de conocimiento contextual*
+
+## ⚙️ Configuración
+
+### Instalación de Ollama
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull mistral
-Install dependencies
+```
 
 bash
 pip install langchain faiss-cpu pandas
