@@ -43,14 +43,15 @@ Tú: Qué sabes sobre X?
 Bot: [Respuesta basada en tu contexto]
 Type salir, exit or quit to end the session.
 
-🧠 Architecture
+## 🧠 Architecture
 Diagram
 Code
 
 📂 File Structure
+```bash
 .
 ├── main.py          # Main application
 ├── README.md           # This file
 └── requirements.txt    # Dependencies
-
+```
 
