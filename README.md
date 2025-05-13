@@ -10,11 +10,13 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull mistral
 ```
 
-bash
-pip install langchain faiss-cpu pandas
-🛠️ Configuration
-Edit the contexto variable with your knowledge:
+```bash
+pip install -r requirements.txt
+```
 
+## 🛠️ Configuration
+Edit the contexto variable with your knowledge:
+```bash
 python
 contexto = [
     """
@@ -23,13 +25,16 @@ contexto = [
     """
 ]
 Modify RAG_PROMPT_TEMPLATE to adjust bot behavior
+```
 
-🚀 Usage
+
+## 🚀 Usage
 Run the chatbot:
 
-bash
-python chatbot.py
+```bash
+python main.py
 Example interaction:
+```
 
 Tú: Hola
 Bot: ¡Hola! ¿Cómo estás hoy?
